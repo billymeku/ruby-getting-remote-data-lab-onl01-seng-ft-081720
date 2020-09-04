@@ -1,18 +1,19 @@
 # Write your code here
-# require 'net/http'
-# require 'open-uri'
-# require 'json'
+require 'net/http'
+require 'open-uri'
+require 'json'
  
 
 class GetRequester
  
-def initialize(url)
-  @url = url
-   
- 
-def get_response_body
+  def initialize(url)
+    @url = url
 
-end 
+  end 
+ 
+  def get_response_body
+
+  end 
   
   def parse_json
     
