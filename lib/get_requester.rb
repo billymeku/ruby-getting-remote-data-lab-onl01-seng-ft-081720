@@ -11,10 +11,10 @@ class GetRequester
    
  end 
  
- url ="https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json."
+ URL ="https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json."
  
  def get_response_body
-   uri.open.string
+  URL.open.string
  end 
   
   def parse_json
