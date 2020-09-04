@@ -11,6 +11,8 @@ class GetRequester
    
  end 
  
+ URL =
+ 
  def get_response_body
    
    
