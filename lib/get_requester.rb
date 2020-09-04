@@ -12,7 +12,7 @@ class GetRequester
   end 
  
   def get_response_body
-    url = ""
+    url = " https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
      uri = URI.parse(url)
      response = Net::HTTP.get_response(uri)
      response.body
